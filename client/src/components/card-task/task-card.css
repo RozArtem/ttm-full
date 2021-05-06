@@ -1,0 +1,150 @@
+.task-card {
+  background-color: white;
+  height: 115px;
+  width: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px #3f89fc;
+          box-shadow: 0 0 5px #3f89fc;
+  margin-left: 30px;
+}
+
+.task-card___container {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.task-card___name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3px;
+  text-transform: uppercase;
+  background-color: #70a6fd;
+  border-radius: 5px;
+  color: white;
+  margin-top: 5px;
+}
+
+.task-card___name .delete_btn {
+  color: white;
+}
+
+.task-card___name .delete_btn:hover {
+  color: red;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.task-card___date {
+  color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.task-card___date .date___create {
+  color: #B9B9B9;
+  padding: 1px;
+  border-radius: 3px;
+  margin-top: 3px;
+}
+
+.task-card___date .date___create::before {
+  content: "create :";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1px;
+  margin-right: 20px;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  background-color: grey;
+  font-weight: normal;
+}
+
+.task-card___date .date___create::after {
+  content: " ;";
+  font-weight: 700;
+  color: black;
+  padding: 1px;
+}
+
+.task-card___date .date____until {
+  color: #B9B9B9;
+  padding: 1px;
+  border-radius: 3px;
+  margin-top: 3px;
+}
+
+.task-card___date .date____until::before {
+  content: "until :";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1px;
+  margin-right: 30px;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  background-color: grey;
+  font-weight: normal;
+}
+
+.task-card___date .date____until::after {
+  content: " ;";
+  font-weight: 700;
+  color: black;
+  padding: 1px;
+}
+
+.task-card___info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.task-card___info .info___project {
+  background-color: #FC1370;
+  border-radius: 3px;
+  color: white;
+  padding: 3px;
+}
+
+.task-card:hover {
+  -webkit-box-shadow: 0 0 10px #0448b6;
+          box-shadow: 0 0 10px #0448b6;
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.delete:hover {
+  -webkit-box-shadow: 0 0 20px #fc1370;
+          box-shadow: 0 0 20px #fc1370;
+  opacity: .5;
+}
+/*# sourceMappingURL=task-card.css.map */

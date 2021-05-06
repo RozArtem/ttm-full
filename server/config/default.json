@@ -1,0 +1,5 @@
+{
+    "serverPort": 5000,
+    "dbURL": "mongodb+srv://root:root@ttm.4ilqu.mongodb.net/ttm?retryWrites=true&w=majority",
+    "secretKey": "ttmKey"
+}

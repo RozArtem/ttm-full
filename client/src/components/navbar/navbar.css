@@ -1,0 +1,32 @@
+.logo-name:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+p:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+#exit-task-btn {
+  border-style: none;
+  background-color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#exit-task-btn:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: black;
+}
+
+.butoms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+}
+/*# sourceMappingURL=navbar.css.map */

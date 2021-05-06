@@ -1,0 +1,28 @@
+.button {
+  margin-right: 20px;
+}
+
+.button button {
+  border: 1px solid #FC1370;
+  background: #FC1370;
+  color: white;
+  border-radius: 10px;
+  height: 35px;
+  width: 200px;
+  font-weight: 700;
+}
+
+.button button:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.button button:active {
+  background: #c71059dc;
+  opacity: 1;
+}
+
+.button button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=button_create.css.map */

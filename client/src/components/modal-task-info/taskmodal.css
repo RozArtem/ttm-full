@@ -1,0 +1,15 @@
+.modal__time-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.time__input {
+  margin-left: 5px;
+}
+/*# sourceMappingURL=taskmodal.css.map */

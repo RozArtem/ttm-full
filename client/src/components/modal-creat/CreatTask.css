@@ -1,0 +1,168 @@
+
+.container-modal {
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0 , .4);    
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+
+}
+
+.modal-box {
+
+  background-color: white;
+  height: 450px;
+  width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  box-sizing: border-box;
+  overflow: auto;
+  border-radius: 12px;
+    
+  
+}
+
+.box {
+
+  width: 95%;
+  margin: 0 5%;
+  height: 95%;
+}
+
+
+label {
+    
+    color: #B9B9B9;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+
+.inp-zone {
+
+    margin: 5px 2% 0 2%;
+    font-family: Montserrat;
+
+}
+
+input::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+#modal_inp {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.description {
+
+  
+    margin: 10px 2% 0 2%;
+}
+
+#coment_area {
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.time-zone {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-family: Montserrat;
+}
+.time-r {
+    width: 50%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    
+    
+}
+
+#time-inp {
+    
+    margin-top: 5px;
+    width: 100%;
+   
+}
+
+
+.btm-modal {
+
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-left:60%;
+    margin-top: 5%;
+  }
+
+  #submit-btm {
+
+    background-color: #FC1370;
+    color: white;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: Montserrat;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+
+  #submit-btm:focus {
+    outline: none;
+  }
+
+  #submit-btm:hover {
+    transform: scale(1.1);
+    
+  }
+
+  #submit-btm:active {
+    background: #ACCDFF;
+    opacity: 1;
+    
+  }
+
+  #close {
+    border-style: none;
+    background-color: white;
+    color: #3F89FC;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Montserrat;
+    padding-top: 7px;
+  }
+
+  #close:focus {
+    outline: none;
+  }
+
+  #close:hover {
+    color:  #2057aa;
+    transform: scale(1.1);
+  }
+
+  #close:active {
+    color: #3F89FC;
+  }

@@ -1,0 +1,83 @@
+.project {
+  background-color: white;
+  width: 350px;
+  height: 170px;
+  border-radius: 12px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px #3f89fc;
+          box-shadow: 0 0 10px #3f89fc;
+  margin-top: 15px;
+}
+
+.project:hover {
+  -webkit-box-shadow: 0 0 20px #0448b6;
+          box-shadow: 0 0 20px #0448b6;
+  cursor: pointer;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  border: 3px solid #3f89fc;
+}
+
+.project___delete {
+  margin-left: 95%;
+  color: grey;
+}
+
+.project___delete:hover {
+  color: rgba(230, 13, 13, 0.801);
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 1;
+}
+
+.project___name {
+  background-color: #fc1370;
+  border-radius: 12px;
+  width: 85%;
+  height: 45px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.project___tasks-trakcer {
+  margin-top: 15px;
+  font-size: 35px;
+}
+
+.project___progress {
+  width: 100%;
+}
+
+.project___span {
+  color: #3f89fc;
+}
+
+.project_delete:hover {
+  -webkit-box-shadow: 0 0 20px #fc1370;
+          box-shadow: 0 0 20px #fc1370;
+  border: 1px solid #fc1370;
+  opacity: .5;
+}
+
+.project_delete_name {
+  background-color: gray;
+}
+/*# sourceMappingURL=project.css.map */

@@ -1,0 +1,65 @@
+.modal {
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &___container {
+        width: 550px;
+        display: flex;
+        height: 35px;
+      
+
+        
+     
+
+           
+        
+    }
+
+    &___inp {
+        width: 450px;
+        border-radius: 12px;
+        border-style: none;
+        font-size: 20px;
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.01);
+        }
+        &:focus {
+            outline: none;
+            transform: scale(1.1)  translate(-15px, 0);
+      
+        }
+    }
+    &___btn {
+        width: 125px;
+        border-radius: 12px;
+        border-style: none;
+        margin-left: 15px;
+        background-color: #FC1370;
+        color: white;
+        font-weight: 700;
+        transform: scale(1.1);
+
+        &:hover {
+            cursor: pointer;
+            color: #FC1370;
+            background-color: white;
+            transform: scale(1);
+        }
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            transform: scale(1.07);
+        }
+        
+    }
+}

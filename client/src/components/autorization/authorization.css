@@ -1,0 +1,51 @@
+.authorization {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 20%;
+  background-color: white;
+  width: 500px;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  margin-left: 25%;
+}
+
+.authorization___header {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.authorization input {
+  margin: 10px 20px;
+}
+
+.authorization__btn {
+  border: none;
+  background-color: #8a0769;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  padding: 5px 10px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 10px;
+  height: 35px;
+  width: 175px;
+}
+
+.authorization__btn2 {
+  border: none;
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=authorization.css.map */

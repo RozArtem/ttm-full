@@ -1,0 +1,80 @@
+.project {
+    background-color: white;
+    width: 350px;
+    height: 170px;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px #3f89fc;
+    margin-top: 15px;
+    
+
+    &:hover {
+        box-shadow: 0 0 20px #0448b6;
+        cursor: pointer;
+        transform: scale(1.03);
+        border: 3px solid #3f89fc;
+    }
+
+
+
+    &___delete {
+        margin-left: 95%;
+        color: grey;
+
+        &:hover {
+            color: rgba(230, 13, 13, 0.801);
+            cursor: pointer;
+            transform: scale(1.5);
+            opacity: 1;
+
+          
+        }
+    }
+
+    &___name {
+        background-color: #fc1370;
+        border-radius: 12px;
+        width: 85%;
+        height: 45px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &___tasks-trakcer {
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    &___progress {
+        width: 100%;
+    }
+
+    &___span {
+        color: #3f89fc;
+    }
+}
+
+
+.project_delete {
+
+   
+    &:hover {
+        box-shadow: 0 0 20px #fc1370;
+        border: 1px solid #fc1370;
+        opacity: .5;
+    }
+
+
+}
+
+.project_delete_name {
+    background-color: gray;
+}

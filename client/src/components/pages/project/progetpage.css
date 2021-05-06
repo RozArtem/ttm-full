@@ -1,0 +1,96 @@
+.project___container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  margin: 10px;
+}
+
+.project___title {
+  text-align: center;
+  font-weight: 700;
+  border-radius: 12px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.table {
+  background-color: white;
+  border-radius: 0 0 12px 12px;
+  width: 400px;
+  min-width: 100px;
+  padding-bottom: 10px;
+  overflow: auto;
+  height: 600px;
+}
+
+.table::-webkit-scrollbar {
+  width: 5px;
+}
+
+.table::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+.colum_new::before {
+  content: 'New';
+  background-color: #3987fc;
+  color: white;
+  position: absolute;
+  width: 400px;
+  margin-top: -30px;
+  border-radius: 12px 12px 0 0;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.colum_in_process::before {
+  content: 'In procces';
+  background-color: #3987fc;
+  color: white;
+  position: absolute;
+  width: 400px;
+  margin-top: -30px;
+  border-radius: 12px 12px 0 0;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.colum_done::before {
+  content: 'Done';
+  background-color: #3987fc;
+  color: white;
+  position: absolute;
+  width: 400px;
+  margin-top: -30px;
+  border-radius: 12px 12px 0 0;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.project___table {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  min-height: 300px;
+}
+
+.dropZone {
+  -webkit-box-shadow: 0 0 10px #0448b6;
+          box-shadow: 0 0 10px #0448b6;
+}
+
+.dropZone::before {
+  background-color: black;
+}
+/*# sourceMappingURL=progetpage.css.map */

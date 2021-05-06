@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,aAAa;CACzB;;AAED,AAAA,YAAY,CAAC;EACT,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "taskmodal.scss"
+    ],
+    "names": [],
+    "file": "taskmodal.css"
+}

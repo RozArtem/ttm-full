@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  height: 100%;
+  background: #ACCDFF;
+}
+
+.navbar {
+  background: #FFFFFF;
+  height: 10%;
+  margin-top: 0;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  margin-top: 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar .container .logo-name {
+  font-size: larger;
+  cursor: default;
+}
+
+.navbar .container .logo-name span {
+  color: #3F89FC;
+}
+
+
+.navbar .container #create-colum-btn {
+  border: 1px solid #3F89FC;
+  background: white;
+  color: #3F89FC;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.navbar .container #create-colum-btn:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.navbar .container #create-colum-btn:active {
+  background: #ACCDFF;
+  opacity: 1;
+}
+
+.navbar .container #create-colum-btn:focus {
+  outline: none;
+}
+
+
+
+.body-place .container {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+          width: 100vw;
+}
+
+
+
+
+
+.colum-name {
+  background: #468ffc;
+  color: white;
+  padding: 10px;
+  margin-bottom: -7px;
+  border-radius: 10px 10px 0 0;
+  width: 350px;
+}
+
+
+.container-page {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+          
+          
+}
