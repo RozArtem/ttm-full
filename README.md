@@ -5,7 +5,7 @@
 TeamsTasksManager - full stack
 
 
-client технологи - JavaScript, React, React-Router, Redux, Redux-thunk, axios , препроцессор SASS, cors;
+client технологи - JavaScript, React, React-Router, Redux, Redux-thunk, axios ,  html , scss, cors;
 
 server технологи - JavaScript, Express, bcryptjs, express-validator ,jsonwebtoken, mongoose;
 
